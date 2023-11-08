@@ -1,5 +1,5 @@
-# kotlin_for_flutter_devs
-Some tips to help Flutter developers to understand relation of Kotlin vs Dart
+# Kotlin for Flutter Devs
+Some tips to help Flutter developers to understand relation of Kotlin vs Dart and fell confortable at Native World.
 
 
 ## Elvis Operator - Kotlin
@@ -12,5 +12,17 @@ variable ?: ""
 
 Dart
 ```Dart
-variable ?? ""
+variable ?? "";
+```
+
+## No Ternary for Kotlin
+
+Dart 
+```Dart
+variable = booleanCondition ? resultIfTrue : resultIfFalse;
+```
+
+Kotlin
+```kotlin
+variable = if (condition) resultIfTrue else resultIfFalse
 ```
